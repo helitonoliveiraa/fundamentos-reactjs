@@ -61,6 +61,17 @@ export const TableContainer = styled.section`
       text-align: left;
       font-size: 16px;
       line-height: 24px;
+
+      svg {
+        margin-top: 6px;
+        margin-left: 12px;
+      }
+
+      &:last-child {
+        svg {
+          color: #ff872c;
+        }
+      }
     }
 
     td {
